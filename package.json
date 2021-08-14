@@ -1,7 +1,12 @@
 {
 	"name": "template-file-generator",
 	"displayName": "File Template Generator",
-	"description": "",
+	"description": "Visual Studio Code extension to generate templates files",
+	"publisher": "samuglz",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/samuglz/vscode-template-file-generator-extension"
+	},
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.59.0"
