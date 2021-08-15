@@ -11,7 +11,7 @@ Create ReactJS and VueJS Components with a single click
 
   - Install the extension in Visual Studio Code.
   - In the explorer tab of Visual Studio Code, right click on the directory you want to create the components in.
-  - Click Create Component.
+  - Open the "New File" option.
   - Select the component template.
   - Enter a valid component name.
   - A new file will be create.
