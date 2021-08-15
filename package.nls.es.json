@@ -1,0 +1,7 @@
+{
+    "extension.template-file-generator.label": "Nuevo Archivo",
+    "extension.template-file-generator.labelVue2": "Componente Vue (2.x)",
+    "extension.template-file-generator.labelVue3": "Componente Vue (3.x)",
+    "extension.template-file-generator.labelRfc": "Componente Funcional de React",
+    "extension.template-file-generator.labelRafce": "Componente Arrow Function de React"
+}

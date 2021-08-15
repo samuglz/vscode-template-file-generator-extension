@@ -25,23 +25,19 @@
 		"commands": [
 			{
 				"command": "template-file-generator.vue2",
-				"title": "Vue Component (2.x)"
-
+				"title": "%extension.template-file-generator.labelVue2%"
 			},
 			{
 				"command": "template-file-generator.vue3",
-				"title": "Vue Component (3.x)"
-
+				"title": "%extension.template-file-generator.labelVue3%"
 			},
 			{
 				"command": "template-file-generator.rfc",
-				"title": "React Functional Component"
-
+				"title": "%extension.template-file-generator.labelRfc%"
 			},
 			{
 				"command": "template-file-generator.rafce",
-				"title": "React Arrow Function Component"
-
+				"title": "%extension.template-file-generator.labelRafce%"
 			}
 		],
 		"menus": {
@@ -50,7 +46,7 @@
 					"submenu": "newFileTemplate"
 				}
 			],
-			"newFileTemplate":[
+			"newFileTemplate": [
 				{
 					"command": "template-file-generator.vue2"
 				},
@@ -68,7 +64,7 @@
 		"submenus": [
 			{
 				"id": "newFileTemplate",
-				"label": "New File"
+				"label": "%extension.template-file-generator.label%"
 			}
 		]
 	},
@@ -78,14 +74,18 @@
 		"test": "node ./test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.59.0",
 		"@types/glob": "^7.1.3",
 		"@types/mocha": "^8.2.2",
 		"@types/node": "14.x",
+		"@types/vscode": "^1.59.0",
 		"eslint": "^7.27.0",
 		"glob": "^7.1.7",
 		"mocha": "^8.4.0",
 		"typescript": "^4.3.2",
+		"vsce": "^1.96.1",
 		"vscode-test": "^1.5.2"
+	},
+	"dependencies": {
+		"vscode-nls": "^5.0.0"
 	}
 }

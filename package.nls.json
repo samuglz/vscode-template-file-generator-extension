@@ -1,0 +1,7 @@
+{
+    "extension.template-file-generator.label": "New File",
+    "extension.template-file-generator.labelVue2": "Vue Component (2.x)",
+    "extension.template-file-generator.labelVue3": "Vue Component (3.x)",
+    "extension.template-file-generator.labelRfc": "React Functional Component",
+    "extension.template-file-generator.labelRafce": "React Arrow Function Component"
+}
